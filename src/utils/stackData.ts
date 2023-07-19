@@ -1,39 +1,40 @@
-import imgHTML from "../public/static/img/stack/html.svg";
-import imgCSS from "../public/static/img/stack/css.svg";
-import imgJS from "../public/static/img/stack/js.svg";
-import imgNode from "../public/static/img/stack/node.svg";
-import imgStyled from "../public/static/img/stack/styled.svg";
-import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { FaNode, FaReact, FaPython } from "react-icons/fa";
+import { SiTypescript, SiPostgresql } from "react-icons/si";
+import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { SiJavascript, SiStyledcomponents, SiExpress } from "react-icons/si";
+import { DiDjango } from "react-icons/di";
+import { AiFillGithub } from "react-icons/ai";
 
 export const stackData = [
   {
     title: "HTML",
-    img: imgHTML,
+    img: IoLogoHtml5,
   },
   {
     title: "CSS",
-    img: imgCSS,
+    img: IoLogoCss3,
   },
   {
     title: "JS",
-    img: imgJS,
+    img: SiJavascript,
   },
   {
     title: "Node JS",
-    img: imgNode,
+    img: FaNode,
   },
   {
     title: "Styled Components",
-    img: imgStyled,
+    img: SiStyledcomponents,
   },
   {
     title: "React",
-    img: imgReact,
+    img: FaReact,
   },
-  { title: "Vuejs", img: FaVuejs },
+
   { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: "PostgreSQL", img: SiPostgresql },
+  { title: "Python", img: FaPython },
+  { title: "Django", img: DiDjango },
+  { title: "GitHub", img: AiFillGithub },
+  { title: "Express", img: SiExpress },
 ];
