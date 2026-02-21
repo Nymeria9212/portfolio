@@ -37,7 +37,8 @@ export const Home = (): JSX.Element => {
              Desenvolvedora com perfil analítico e foco em soluções bem estruturadas. 
               Valorizo organização, clareza e responsabilidade em cada projeto que assumo. 
               Trabalho com atenção aos detalhes, priorizando funcionalidade e experiência do usuário, 
-              sempre com compromisso com qualidade e evolução contínua.
+              sempre com compromisso com qualidade e evolução contínua. 
+              Nas horas vagas gosto de ler, jogar video game e assistir seriados.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
