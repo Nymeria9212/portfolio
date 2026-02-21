@@ -34,11 +34,10 @@ export const Home = (): JSX.Element => {
               Sobre mim{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Desenvolvedora Web Full Stack, ávida leitora, gamer e artesã nas
-              horas vagas, adoro cozinhar e sou mãe do Romeu, um doguinho SRD
-              super sapeca. Sou estudante de programação, e na bootcamp Kenzie
-              Academy Brasil participei de diversos projetos resolvendo
-              problemas de alto nível e desenvolvendo minhas habilidades.
+             Desenvolvedora com perfil analítico e foco em soluções bem estruturadas. 
+              Valorizo organização, clareza e responsabilidade em cada projeto que assumo. 
+              Trabalho com atenção aos detalhes, priorizando funcionalidade e experiência do usuário, 
+              sempre com compromisso com qualidade e evolução contínua.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
